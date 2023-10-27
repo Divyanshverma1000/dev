@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Define your inline CSS styles here */
+    .header {
+      margin-bottom: 20px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+      /* color: #4134f6; */
+      
+    }
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .title {
+      font-size: 24px;
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    .text {
+      font-size: 16px;
+      color: #666666;
+      margin-bottom: 20px;
+    }
+    .verification-code {
+      font-size: 24px;
+      color: #007bff;
+    }
+    .logo {
+      max-width: 100px; /* Adjust the width of the logo */
+    }
+    .footer {
+      color: #999999;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.ibb.co/sCk1g6y/goto-logo-launcher.png" alt="goto Logo" class="logo"> 
+    <h1>Email Verification</h1>
+    <p>Hello user,</p>
+    <p>Please use the verification code below:</p>
+    <p class="verification-code">{{verificationCode}}</p>
+    <p>If you didn't request this, please let us know.</p>
+    <p>Thanks!</p>
+    <p>Goto team</p>
+  </div>
+</body>
+</html>
